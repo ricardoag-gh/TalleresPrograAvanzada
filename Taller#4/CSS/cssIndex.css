@@ -1,0 +1,135 @@
+
+
+
+body{
+    background-color: rgba(195, 190, 190, 0.945);
+    
+}
+
+
+#divHeaderPrincipal{
+    border: 2px solid black;
+    margin-top: 20px;
+    margin-left: 150px;
+    margin-right: 150px;
+    background-color: rgb(62, 103, 131);
+    padding: 0 10px 0 20px;
+    color: white; 
+}
+
+
+h1 {
+    border: 2px solid white;
+    background-color: black;
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    margin-left: 150px;
+    margin-right: 150px;
+    color: white;
+   
+    
+}
+
+.divOpcionesMenu{  
+    
+    border: 2px solid black;
+    margin-top: 60px;
+    margin-bottom: 100px;
+    margin-left: 150px;
+    margin-right: 150px;
+    background-color: rgb(62, 103, 131);
+    line-height: 3.333em;
+    padding: 0 10px 0 20px;
+    color: white;
+
+}
+
+h2{
+    text-align: center;
+    background-color: black;
+    border:2px solid white;
+    color: white;
+}
+
+
+ul{
+    list-style: none;
+    text-align: center;
+    
+}
+
+
+#btnIngresar{
+    width: 120px;
+    height: 60px;
+    color: white;
+    background-color:black;
+    border: none; 
+}
+#btnIngresar:hover {background-color:rgba(195, 190, 190, 0.945); color: black;}
+#btnIngresar:active {
+  background-color: rgb(62, 103, 131);
+  transform: translateY(4px);
+  
+}
+
+
+
+#btnRegistrar{
+    background-color: black;
+    width: 120px;
+    height: 60px;
+    color: white;
+    border: none;
+}
+#btnRegistrar:hover {background-color:rgba(195, 190, 190, 0.945); color: black;}
+#btnRegistrar:active {
+  background-color: rgb(62, 103, 131);
+  transform: translateY(4px);
+  
+}
+
+
+#btnJugador{
+    background-color: black;
+    width: 120px;
+    height: 60px;
+    color: white;
+    border: none;
+    
+}
+#btnJugador:hover {background-color:rgba(195, 190, 190, 0.945); color: black;}
+#btnJugador:active {
+  background-color: rgb(62, 103, 131);
+  transform: translateY(4px);
+  
+}
+
+#divFooter{
+    border: 2px solid black;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-left: 150px;
+    margin-right: 150px;
+    background-color: rgb(62, 103, 131);
+    padding: 0 10px 0 20px;
+    color: white; 
+    text-align: center;
+}
+
+
+
+#autor{
+    border: 2px solid white;
+    background-color: black;
+    padding: 0 10px 0 20px;
+    color: white; 
+    text-align: center;
+    
+}
+
+#correo{
+
+    text-align: center;
+}

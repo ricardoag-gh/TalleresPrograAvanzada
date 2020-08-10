@@ -1,0 +1,79 @@
+body{
+    background-color:rgba(195, 190, 190, 0.945) ;
+}
+
+
+.divJugador{  
+    text-align: center;
+    border: 2px solid black;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-left: 200px;
+    margin-right: 200px;
+    background-color: rgb(62, 103, 131);
+    line-height: 3.333em;
+    padding: 0 10px 0 20px;
+    color: white;
+
+}
+
+
+#btnValidar{
+    width: 150px;
+    height: 60px;
+    margin-bottom: 100px;
+    margin-left: 5px;
+    color: white;
+    background-color:rgb(62, 103, 131);
+    border: none; 
+    
+}
+#btnValidar:hover {background-color:rgba(195, 190, 190, 0.945); color: black;}
+#btnValidar:active {
+  background-color: rgb(62, 103, 131);
+  transform: translateY(4px);
+  
+}
+
+#divH2Jugador {
+    border: 2px solid white;
+    background-color: black;
+    text-align: center;
+    margin-top: 80px;
+    margin-bottom: 80px;
+    margin-left: 150px;
+    margin-right: 150px;
+    color: white;
+   
+    
+}
+
+#divCuadroCamposJugador{
+    border: 2px solid white;
+    background-color: black;
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-left: 400px;
+    margin-right: 400px;
+    color: white;
+    
+}
+
+
+#btnRegresar{
+    width: 150px;
+    height: 60px;
+    margin-bottom: 100px;
+    margin-left: 60px;
+    color: white;
+    background-color:black;
+    border: none; 
+}
+
+#btnRegresar:hover {background-color:rgba(195, 190, 190, 0.945); color: black;}
+#btnRegresar:active {
+  background-color: rgb(62, 103, 131);
+  transform: translateY(4px);
+  
+}

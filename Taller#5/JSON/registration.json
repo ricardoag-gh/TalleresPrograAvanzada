@@ -1,0 +1,10 @@
+{
+    "usuariosRegistrados": [
+        {
+            "username": "user10",
+            "password": "pass10",
+            "icono": "",
+            "email": "r@gmail.com"
+        }
+    ]
+}

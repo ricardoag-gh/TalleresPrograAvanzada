@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login</title>
+    <link rel="html" href="../HTML/registro.html">
+    <script type="text/javascript" src="../JAVASCRIPT/registroJS.js"></script>
+    <link rel="js" href="../JSON/datos_quemados.json">
+
+
+
+
+    <script>
+        function pageRedirectIndex(){
+        window.location.href = "../HTML/index.html";
+        }
+
+        
+    </script>
+
+    <link rel="stylesheet" href="../CSS/cssJugador.css">
+</head>
+<body>
+
+
+    <div class="divJugador">
+
+        <div id="divH2Jugador">
+            <h2 >Mostrando informacion: </h2>
+        </div>
+        
+        <div id = divCuadroCamposJugador>
+            
+            <form action="/action_page.php">
+
+                <p>Seleccione su codigo de conjunto:</p>
+                <input type="radio" id="male" name="gender" value="male">
+                <label for="male">3</label><br>
+                
+                
+                <label for="lblPassword">Password:</label><br>
+                <input type="text" id="txtPassword" name="txtPassword" value="*******"><br>
+                <button type="button" onclick="pageRedirectJugador()" id="btnValidar"><b>Validar</b> </button><br>
+
+                
+
+                <label for="lblnombre">Nombre:</label><br>
+                <input type="text" id="txtNombre" name="txtNombre" ><br>
+                <label for="lblapellido">Apellido:</label><br>
+                <input type="text" id="txtApellido" name="txtApellido" ><br>
+                <label for="lblusuario">Usuario:</label><br>
+                <input type="text" id="txtUsuario" name="txtUsuario" ><br>
+                <label for="lblCorreo">Correo:</label><br>
+                <input type="text" id="txtCorreo" name="txtCorreo" ><br>
+                <label for="lblPassword">Password:</label><br>
+                <input type="text" id="txtPassword" name="txtPassword" ><br><br>
+
+
+                <label for="demo" id="testepLbl"> </label><br>
+                
+              </form> 
+
+        </div>
+
+        <button type="button" onclick="pageRedirectIndex()" id="btnRegresar"><b>Regresar</b> </button>
+
+    </div>
+
+
+    
+</body>
+</html>
+
+
+

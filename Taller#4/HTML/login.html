@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../CSS/cssIngresar.css">
+    <title>login</title>
+
+    <script>
+        function pageRedirectIndex(){
+        window.location.href = "../HTML/index.html";
+        }
+    </script>
+
+
+</head>
+<body>
+    <div class="divLogin">
+
+        <div id="divH2Login">
+            <h2 >Por favor ingrese sus credenciales en los siguientes campos : </h2>
+        </div>
+        
+        <div id = divCuadroCamposCredencial>
+            
+            <form action="/action_page.php">
+                <label for="fname">Usuario:</label>
+                <input type="text" id="user" name="user" value="John"><br>
+                <label for="lname">Password:</label>
+                <input type="text" id="password" name="password" value="Doe"><br><br>
+                <button type="button" onclick="pageRedirectJugador()" id="btnlogin"><b>Ingresar</b> </button>
+              </form> 
+
+        </div>
+
+        <button type="button" onclick="pageRedirectIndex()" id="btnRegresar"><b>Regresar</b> </button>
+
+    </div>
+
+    
+</body>
+</html>

@@ -1,0 +1,60 @@
+
+
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta http-equiv=”Content-Type” content=”text/html; charset=UTF-8″ />
+    <link rel="stylesheet" href="../CSS/cssIndex.css">
+    <link rel="stylesheet" href="../JAVASCRIPT/indexJS.js">
+    
+    <title>Index</title>
+
+    <script>
+        function pageRedirectIngresar(){
+        window.location.href = "../HTML/login.html";
+        }
+
+        function pageRedirectRegistrar(){
+        window.location.href = "../HTML/registro.html";
+        }
+
+        function pageRedirectJugador(){
+        window.location.href = "../HTML/jugador.html";
+        }
+    </script>
+
+  </head>
+  <body >
+
+        <div id="divHeaderPrincipal">
+        <h1 >Menu Principal</h1>
+        </div>
+    
+
+        <div class="divOpcionesMenu">
+            <h2 >Seleccione alguna de las siguientes opciones : </h2>
+
+            <ul>
+                <li><b>Ingresar al sistema:</b></li> 
+                    <button type="button" onclick="pageRedirectIngresar()" id="btnIngresar" ><b>INGRESAR</b></button>
+                <li><b>Registrarse al sistema:</b></li>
+                    <button type="button" onclick="pageRedirectRegistrar()" id="btnRegistrar"><b>REGISTRAR</b> </button>
+                <li><b>Seleccionar jugador:</b></li>
+                    <button type="button" onclick="pageRedirectJugador()" id="btnJugador"><b>JUGADOR</b> </button>
+
+            </ul>
+
+        </div>
+        
+        <div id="divFooter">
+            <footer>
+                <p id="autor">Autor: Ricardo Aguilar Gonzalez</p>
+                <p id="correo"><a href="mailto:ricardo.aguilar1@uamcr.net">ricardo.aguilar1@uamcr.net</a></p>
+            </footer>
+        </div>
+
+  </body>
+</html>
+
+
+

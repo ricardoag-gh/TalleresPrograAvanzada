@@ -1,0 +1,46 @@
+{
+    "usuariosExistentes": [
+        {
+            "username": "adrian_10",
+            "password": "passWordAdrian1!",
+            "icono": "AdrianProfilePic10.jpg",
+            "email": "adrian@gmail.com"
+        },
+        {
+            "username": "andre1_10",
+            "password": "Passw10!24",
+            "icono": "picture.png",
+            "email": "andre@gmail.com"
+        },
+        {
+            "username": "adrian_11",
+            "password": "passForAdrian11!",
+            "icono": "adrian.jpg",
+            "email": "adrian@gmail.com"
+        },
+        {
+            "username": "adrian_12",
+            "password": "passForAdrian12!",
+            "icono": "Adrian.JPG",
+            "email": "adrian12@gmail.com"
+        },
+        {
+            "username": "adrian_17",
+            "password": "passwRd17!",
+            "icono": "adrian107.jpg",
+            "email": "adrian17@gmail.com"
+        },
+        {
+            "username": "hugoBoss_10",
+            "password": "passWrd10!",
+            "icono": "hugp.JPG",
+            "email": "hugo@gmail.com"
+        },
+        {
+            "username": "peter_90",
+            "password": "passForPeter10!",
+            "icono": "peterProfilePic.png",
+            "email": "peter@gmail.com"
+        }
+    ]
+}
